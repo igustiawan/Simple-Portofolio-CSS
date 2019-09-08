@@ -1,0 +1,117 @@
+body {
+  margin:0;
+  font-family: "Raleway", Helvetica, sans-serif;
+  background-color:whitesmoke;
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.main-content {
+  margin: 0 80px;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: rgb(185, 73, 73);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.headerText {
+    width: 100%;
+    height: 40vh;
+    font-size:2.5vw;
+    background: url(../img/banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(185, 73, 73);
+    flex-direction: column;
+    line-height: .3;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+.right {
+  float: right;
+  width: 50%;
+}
+
+.group
+{
+  padding:10px;
+  background-color: whitesmoke;
+}
+
+.group:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+img {
+  display: block;
+  text-align: center;
+  margin: 5px auto 0;
+  border-radius: 100%;
+  height: 240px;
+  width: 220px;
+}
+
+.footer {
+  color: #f2f2f2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(185, 73, 73);
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .left, 
+  .right {
+      float: none;
+      width: auto;
+  }
+}
+
+@media screen and (max-width:959px) {
+  .right {
+    width: 50%;
+  }
+  .left {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+} 
