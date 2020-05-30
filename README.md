@@ -1,4 +1,4 @@
-# Simple-Portofolio-Pure-CSS
+# Simple-Portofolio-CSS
 Submission untuk kelas Dicoding - Belajar Dasar Pemrograman Web
 
 
